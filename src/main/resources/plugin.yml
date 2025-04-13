@@ -1,0 +1,18 @@
+name: ${project.name}
+description: ${project.description}
+version: ${project.version}
+main: com.djtmk.disableai.DisableAI
+author: djtmk
+api-version: 1.21
+
+commands:
+  disableai:
+    description: DisableAI info
+    default: true
+    usage: /disableai
+    aliases: [ai, dai]
+
+permissions:
+  disableai.reload:
+    default: op
+    description: Reload plugin

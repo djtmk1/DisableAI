@@ -1,0 +1,10 @@
+configVersion: 1
+
+settings:
+  # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+  disabledEntities:
+    - SALMON
+    - COD
+    - TROPICAL_FISH
+    - SQUID
+    - BAT
