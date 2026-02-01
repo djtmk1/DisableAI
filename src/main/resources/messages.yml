@@ -1,0 +1,36 @@
+# Placeholders: {name}, {version}, {count}, {list}
+
+prefix: "&8[&5DisableAI&8] &r"
+
+# Permission & Status Messages
+no-permission: "&cNo permission!"
+config-reloaded: "&aConfig reloaded!"
+no-entities-disabled: "&eNo entities are disabled."
+
+# Help Messages
+help:
+  add: "&7/ai add <entity> &8- &rAdd entity to disabled list"
+  remove: "&7/ai remove <entity> &8- &rRemove entity from disabled list"
+  list: "&7/ai list &8- &rList all disabled entities"
+  reload: "&7/ai reload &8- &rReload plugin"
+
+# Usage Messages
+usage:
+  add: "&cUsage: /ai add <entity>"
+  remove: "&cUsage: /ai remove <entity>"
+
+# Header & Author
+header: "&8» &5DisableAI &7v{version}"
+author: "&8Author: &7{name}"
+
+# Entity Messages
+entity:
+  added: "&aAdded &e{name}&a to disabled list!"
+  removed: "&aRemoved &e{name}&a from disabled list!"
+  already-disabled: "&e{name} is already disabled!"
+  not-disabled: "&e{name} is not in the disabled list!"
+  not-living: "&cEntity {name} is not a living entity!"
+  invalid-type: "&cInvalid entity type: {name}"
+  list-header: "&aDisabled entities ({count}):"
+  list-format: "&e{list}"
+  list-separator: "&7, &e"

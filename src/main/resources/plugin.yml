@@ -2,7 +2,7 @@ name: ${project.name}
 description: ${project.description}
 version: ${project.version}
 main: com.djtmk.disableai.DisableAI
-author: djtmk
+authors: [djtmk, IgniteDEV]
 api-version: 1.21
 
 commands:
@@ -16,3 +16,6 @@ permissions:
   disableai.reload:
     default: op
     description: Reload plugin
+  disableai.manage:
+    default: op
+    description: Add, remove and list disabled entities
